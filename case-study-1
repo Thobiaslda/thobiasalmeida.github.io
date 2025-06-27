@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: Media Relations | Thobias Almeida</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <a href="index.html" class="logo">Thobias Almeida</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container case-study">
+        <h1>Case Study: PR Performance & Crisis Management</h1>
+        <p class="case-intro">A showcase of data-driven media relations strategy for key clients at Rede Comunicação Agency, including RHI Magnesita, CSul, and Insole.</p>
+
+        <img src="case1-full.png" alt="PR Performance Report" class="case-study-banner">
+
+        <div class="case-study-content">
+            <div class="case-section">
+                <h2>The Challenge</h2>
+                <p>To lead and execute external communications strategies for three distinct clients, each requiring a unique approach to media relations, content development, and reputation management to deliver measurable, goal-aligned outcomes.</p>
+            </div>
+
+            <div class="case-section">
+                <h2>My Approach & Key Results</h2>
+                <p>For each client, I developed a proactive strategy focused on securing high-quality media placements, managing brand reputation, and handling crises swiftly. The results for our flagship client, RHI Magnesita, speak for themselves:</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">485</div>
+                        <div class="stat-label">Total Media Insertions</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">78%</div>
+                        <div class="stat-label">Positive Coverage</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">45M</div>
+                        <div class="stat-label">Audience Reach</div>
+                    </div>
+                     <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Crises Successfully Managed</div>
+                    </div>
+                </div>
+                <p>This data-centric approach was replicated across other clients, such as CSul, which achieved <strong>96.6% positive coverage</strong> and a <strong>41.2% presence in top-tier outlets</strong>.</p>
+            </div>
+
+             <div class="case-section">
+                <h2>Key Takeaway</h2>
+                <p>This project demonstrates a strong ability to manage multiple high-stakes accounts simultaneously, using data to track performance and pivot strategy while effectively handling unexpected crises to protect and enhance client reputation.</p>
+            </div>
+        </div>
+
+        <div class="portfolio-nav">
+             <a href="portfolio.html">← Back to Portfolio</a>
+             <a href="case-study-2.html">Next Case: Social Listening →</a>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Let's Connect: <a href="mailto:thobiasalmeida@gmail.com">thobiasalmeida@gmail.com</a> | <a href="[PASTE YOUR LINKEDIN URL HERE]" target="_blank">LinkedIn</a></p>
+            <p>© 2024 Thobias Almeida</p>
+        </div>
+    </footer>
+
+</body>
+</html>
