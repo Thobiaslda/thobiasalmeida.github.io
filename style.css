@@ -91,6 +91,7 @@ nav ul li a:hover, nav ul li a.active { color: var(--secondary-color); }
 /* --- Resume Page --- */
 .resume-page h1, .resume-page p { text-align: left; }
 .resume-page .page-title { text-align: left; background: none; padding: 2rem 0; }
+.resume-page .page-title p { margin: 0; max-width: 100%; } /* ADDED THIS LINE TO FIX ALIGNMENT */
 .resume-section { margin-bottom: 3rem; }
 .resume-section h2 { text-align: left; border-bottom: 3px solid var(--secondary-color); padding-bottom: 0.5rem; margin-bottom: 2rem; display: inline-block; }
 .job-entry { margin-bottom: 2rem; }
