@@ -113,3 +113,36 @@ nav ul li a:hover, nav ul li a.active { color: var(--secondary-color); }
     nav ul { display: none; } /* Simple solution for mobile, can add hamburger later */
     .hero-content { flex-direction: column-reverse; text-align: center; }
 }
+/* --- Recommendation Cards on Case Study Page --- */
+.recommendations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.recommendation-card {
+    background-color: var(--light-gray);
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+.recommendation-card .rec-icon {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.recommendation-card h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.recommendation-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
