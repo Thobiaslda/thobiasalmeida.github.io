@@ -20,7 +20,7 @@ jobs:
 
       - name: Refresh team form data
         env:
-          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
         run: node scripts/update-data.mjs
 
       - name: Commit and push if changed
