@@ -2,7 +2,7 @@
 // WC2026 TEAM DATA — auto-updatable. Edit manually or run
 // scripts/update-data.mjs to refresh form stats from live results.
 // ============================================================
-const DATA_UPDATED = "2026-06-11";
+const DATA_UPDATED = "2026-06-15";
 // ============================================================
 // TEAM DATA — Edit this block to keep predictions up to date.
 // Keys are 3-letter codes. All scores are 0-100.
